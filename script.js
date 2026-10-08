@@ -84,4 +84,4 @@ $('#form').addEventListener('submit',e=>{
  if(bad.length){bad[0].focus();bad.forEach(x=>x.animate([{transform:'translateX(0)'},{transform:'translateX(-6px)'},{transform:'translateX(6px)'},{transform:'translateX(0)'}],{duration:320,easing:'ease-in-out'}));return}
  f.classList.add('sent');$('#ok').classList.add('show');
 });
-$('#yr').textContent=new Date().getFullYear();
+$('#yr').textContent='2023';
